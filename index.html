@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Noto+Sans:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+   <div class="container">
+    <header>
+        <img src="./images/cadastro.png" alt="diploma">
+        <h1>Formulário de Cadastro</h1>
+    </header> 
+    <form id="form-atividade">
+      <input type= "text" id="nome" required placeholder="Nome Completo" /><br/>
+      <input type= "text" id="telefone" required placeholder="Telefone" /><br/>
+      <input type= "text" id="cpf" required placeholder="CPF" /><br/>
+      <input type= "text" id="endereco" required placeholder="Endereço Completo" /><br/>
+      <!--<p><label>CEP<input type="text" id="cep" required placeholder="CEP" /></label></p>-->
+      <input type= "text" id="cep" required placeholder="CEP" /><br/><br/>
+      <button type="submit" id="clica">Cadastrar</button><br/>
+    </form>
+    <table cellspacing = "100">
+      <thead>
+         <tr>
+           <th>
+            <td id="nome">NOME</td>
+            <td id="telefone">TELEFONE</td>
+            <td id="cpf">CPF</td>
+            <td id="endereco">ENDEREÇO</td>
+            <td id="cep">CEP</td>
+            </th>
+         </tr>
+      </thead>
+      <tbody>
+      </tbody>
+      <tfoot>
+         <tr>
+         </tr>
+      </tfoot>
+    </table>
+   </div>
+   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+   <script src="hhttps://cdnjs.com/libraries/jquery.mask"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"
+        integridade="sha256-yE5LLp5HSQ/z+hJeCqkz9hdjNkk1jaiGG0tDCraumnA="
+        crossorigin="anônimo"></script>
+   <script src="./main.js"></script>
+</body>
+</html>
